@@ -60,7 +60,7 @@ I would perform a study of the MechaCar up against competitors for the following
 - Fuel Economy 
 - Emissions
 
-The null hypothesis would be the MechaCar fuel economy and emissions are statistically similar to it’s competitors. The alternative hypothesis MechaCar fuel economy and emissions are not statistically similar to it’s competitors.
+The null hypothesis would be the MechaCar fuel economy and emissions are statistically similar to it’s competitors. The alternative hypothesis is that MechaCar fuel economy and emissions are not statistically similar to it’s competitors.
 
 ## Statistical Tests
 A multiple linear regression analysis should be used to determine the factors that have the highest correlation/predictability with the 
