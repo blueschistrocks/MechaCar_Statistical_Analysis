@@ -5,8 +5,6 @@
 The dataset “MechaCar_mpg.csv” has miles per gallon (mpg) test results for 50 prototype MechaCars.  These prototypes were produced using multiple design specifications to identify ideal vehicle performance. Multiple metrics, such as vehicle length, vehicle weight, spoiler angle, drivetrain, and ground clearance, were collected for each vehicle. Using my knowledge of R, I designed a linear model that predicts the mpg of MechaCar prototypes using several variables from the “MechaCar_mpg.csv” dataset.
 
 
-
-
 ## Statistical Summary: 
 
 - The vehicle length, and vehicle ground clearance are statistically unlikely to provide random variance results to the linear model. The vehicle length and vehicle ground clearance have a significant impact on the mpg the prototypes. In contrast, the spoiler angle, vehicle weight and all wheel drive (AWD) have p-Values that point to a random amount of variance within the “MechaCar_mpg.csv” dataset.
@@ -36,17 +34,17 @@ Based on a review of the dataframes Lot 3 exceeds 100 PSI, therefore does not me
 
 The true mean of the sample is 1498.78.  With a p-Value of 0.06028, which is higher than the common significance level of 0.05, there isn’t enough evidence to support rejecting the null hypothesis. The mean of all three of these manufacturing lots is statistically similar to the presumed population mean of 1500.
 
-Lot 1 image
+![image](https://github.com/blueschistrocks/MechaCar_Statistical_Analysis/blob/5840c0bd4ed03d950ac2b84b3955c23f3d002da0/images/Screen%20Shot%202022-06-01%20at%208.53.16%20PM.png)<br>
 
 Lot 1 has a true sample mean of 1500 and a p-Value of 1.  We can’t reject the null hypothesis that there is no statistical difference between the observed sample mean and the presumed population mean of 1500.
 
 
-Lot 2 image
+![image](https://github.com/blueschistrocks/MechaCar_Statistical_Analysis/blob/5840c0bd4ed03d950ac2b84b3955c23f3d002da0/images/Screen%20Shot%202022-06-01%20at%208.53.30%20PM.png)<br>
 
 Lot 2 has a true sample mean of 1500.02 and a p-Value of 0.6072.  Again we can’t reject the null hypothesis.
 
 
-Lot 3 image 
+![image](https://github.com/blueschistrocks/MechaCar_Statistical_Analysis/blob/5840c0bd4ed03d950ac2b84b3955c23f3d002da0/images/Screen%20Shot%202022-06-01%20at%208.53.52%20PM.png)<br>
 
 Lot 3 has a true sample mean of 1496.14and a p-Value of 0.04168.  The p-Value is lower than the common significance level of 0.05, therefore we should reject the null hypothesis that this sample mean and the presumed population mean are not statistically different.
 .
@@ -60,7 +58,7 @@ I would perform a study of the MechaCar up against competitors for the following
 
 The null hypothesis would be the MechaCar fuel economy and emissions are statistically similar to it’s competitors. The alternative hypothesis MechaCar fuel economy and emissions are not statistically similar to it’s competitors.
 
-##Statistical Tests
+## Statistical Tests
 A multiple linear regression analysis should be used to determine the factors that have the highest correlation/predictability with the 
 
 
