@@ -65,10 +65,16 @@ I would perform a study of the MechaCar up against competitors for the following
 -	What factors should we look at in the study to determine?
 -	What are the dependent and independent variables?
 
+#### Data
+- Obtain emissions data for the MechaCar and comparable competitor models that were provided to the U.S. Environmental Protection Agency (EPA) and/or California Air Resources Control Board (CARB).  
+
+
+#### Hypothesis
 The null hypothesis would be the MechaCar fuel economy and emissions are statistically similar to it’s competitors. The alternative hypothesis is that MechaCar fuel economy and emissions are not statistically similar to it’s competitors.
 
 ## Statistical Tests
-A multiple linear regression analysis should be used to determine the factors that have the highest correlation/predictability with the 
+A one-way Analysis of Variance (ANOVA) test is used to investigate the mean of a single continuous dependent variable across a single independent variable with multiple groups, similar to categorical data. In the two ANOVA) test analysis our independent variables are the type of transmission for a test of fuel efficiency and type of emissions controls for a test of emissions, which are categorical data types, and our dependent variables are fuel efficiency and emissions, respectively. These are numerical continuous data types.
+
 
 
 
