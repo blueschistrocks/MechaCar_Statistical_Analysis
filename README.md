@@ -19,11 +19,15 @@ If we remove the vehicle weight, spoiler angle, and AWD (less impactful independ
 ![image](https://github.com/blueschistrocks/MechaCar_Statistical_Analysis/blob/853909cc444a6e30f923f304077917712714246b/images/Screen%20Shot%202022-06-01%20at%207.25.55%20PM.png)<br>
 
 ## Deliverable 2: Create Visualizations for the Trip Analysis
-##Summary Statistics on Suspension Coils
+Useing the "Suspension_Coil.csv" data set two dataframes were created. 
+
+## Summary Statistics on Suspension Coils
 The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch (PSI).   
 
+### Total Summary Dataframe
 ![image](https://github.com/blueschistrocks/MechaCar_Statistical_Analysis/blob/853909cc444a6e30f923f304077917712714246b/images/Screen%20Shot%202022-06-01%20at%207.33.06%20PM.png)<br>
 
+### Lot Summary Dataframe
 ![image](https://github.com/blueschistrocks/MechaCar_Statistical_Analysis/blob/853909cc444a6e30f923f304077917712714246b/images/Screen%20Shot%202022-06-01%20at%207.34.06%20PM.png)<br>
 
 Based on a review of the dataframes Lot 3 exceeds 100 PSI, therefore does not meet the design specification. The reason for this are numerous outliers (refer to plot below).
