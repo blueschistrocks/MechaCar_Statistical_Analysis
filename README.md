@@ -60,6 +60,11 @@ I would perform a study of the MechaCar up against competitors for the following
 - Fuel Economy 
 - Emissions
 
+#### Details to understand
+-	What are the competitor models that are comparable to the MechaCar?
+-	What factors should we look at in the study to determine?
+-	What are the dependent and independent variables?
+
 The null hypothesis would be the MechaCar fuel economy and emissions are statistically similar to it’s competitors. The alternative hypothesis is that MechaCar fuel economy and emissions are not statistically similar to it’s competitors.
 
 ## Statistical Tests
