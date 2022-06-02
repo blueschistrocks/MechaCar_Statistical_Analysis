@@ -13,17 +13,24 @@ The dataset “MechaCar_mpg.csv” has miles per gallon (mpg) test results for 5
  -  The p-value of 5.35e-11 is much smaller than the significance level of 0.05. There is sufficient evidence that the slope of the linear model is not 0.
 - With an R-squared of 0.7149 there is a moderate to strong chance that this linear model is effective at predicting mpg. There is a 71% chance that the variability of mpg is explained using this linear model.
 
+![image](https://github.com/blueschistrocks/MechaCar_Statistical_Analysis/blob/853909cc444a6e30f923f304077917712714246b/images/Screen%20Shot%202022-06-01%20at%207.25.16%20PM.png)<br>
 
 ### Additional Step
 If we remove the vehicle weight, spoiler angle, and AWD (less impactful independent variables), the predictability does decrease, but not drastically: the r-squared value falls from 0.7149 to 0.674.
 
-Image
+![image](https://github.com/blueschistrocks/MechaCar_Statistical_Analysis/blob/853909cc444a6e30f923f304077917712714246b/images/Screen%20Shot%202022-06-01%20at%207.25.55%20PM.png)<br>
 
 ## Deliverable 2: Create Visualizations for the Trip Analysis
 ##Summary Statistics on Suspension Coils
-The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch (PSI). Based on a review of the dataframes Lot 3 exceeds 100 PSI, therefore does not meet the design specification.  The reason for this are numerous outliers (refer to plot below).
+The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch (PSI).   
 
-image
+![image](https://github.com/blueschistrocks/MechaCar_Statistical_Analysis/blob/853909cc444a6e30f923f304077917712714246b/images/Screen%20Shot%202022-06-01%20at%207.33.06%20PM.png)<br>
+
+![image](https://github.com/blueschistrocks/MechaCar_Statistical_Analysis/blob/853909cc444a6e30f923f304077917712714246b/images/Screen%20Shot%202022-06-01%20at%207.34.06%20PM.png)<br>
+
+Based on a review of the dataframes Lot 3 exceeds 100 PSI, therefore does not meet the design specification. The reason for this are numerous outliers (refer to plot below).
+
+![image](https://github.com/blueschistrocks/MechaCar_Statistical_Analysis/blob/853909cc444a6e30f923f304077917712714246b/images/image-2.png)<br>
 
 ## Deliverable 3: T-Tests on Suspension Coils 
 
