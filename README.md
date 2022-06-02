@@ -62,6 +62,6 @@ The null hypothesis would be the MechaCar fuel economy and emissions are statist
 
 ##Statistical Tests
 A multiple linear regression analysis should be used to determine the factors that have the highest correlation/predictability with the 
-![image](https://user-images.githubusercontent.com/89749126/171547825-1443b487-4890-4705-b421-32231caa2f02.png)
+
 
 
