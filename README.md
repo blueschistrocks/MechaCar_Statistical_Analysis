@@ -9,8 +9,52 @@ The dataset “MechaCar_mpg.csv” has miles per gallon (mpg) test results for 5
 
 ## Statistical Summary: 
 
-- The vehicle length, and vehicle ground clearance are statistically likely to provide non-random amounts of variance to the model. Based on the output the vehicle length and vehicle ground clearance have a significant impact on mpg on each prototype. In contrast, the spoiler angle, vehicle weight and all wheel drive (AWD) have p-Values that point to a random amount of variance within the  “MechaCar_mpg.csv” dataset.
-- Since the p-Value of 5.35e-11, is much smaller than the assumed significance level of 0.05%, this indicates that there is sufficient evidence to reject our null hypothesis. This further indicates that the slope of this linear model is not zero.
-- The linear model has an r-squared value of 0.7149, which indicates that approximately 71% of all the mpg predictions will be determined by this model. This further indicates that the model does effectively predict mpg of MechaCar prototypes.
-- If we remove the less impactful independent variables (vehicle weight, spoiler angle, and All Wheel Drive), The predictability does decrease, but not drastically: the r-squared value falls from 0.7149 to 0.674.
+- The vehicle length, and vehicle ground clearance are statistically unlikely to provide random variance results to the linear model. The vehicle length and vehicle ground clearance have a significant impact on the mpg the prototypes. In contrast, the spoiler angle, vehicle weight and all wheel drive (AWD) have p-Values that point to a random amount of variance within the “MechaCar_mpg.csv” dataset.
+ -  The p-value of 5.35e-11 is much smaller than the significance level of 0.05. There is sufficient evidence that the slope of the linear model is not 0.
+- With an R-squared of 0.7149 there is a moderate to strong chance that this linear model is effective at predicting mpg. There is a 71% chance that the variability of mpg is explained using this linear model.
+
+
+### Additional Step
+If we remove the vehicle weight, spoiler angle, and AWD (less impactful independent variables), the predictability does decrease, but not drastically: the r-squared value falls from 0.7149 to 0.674.
+
+Image
+
+## Deliverable 2: Create Visualizations for the Trip Analysis
+##Summary Statistics on Suspension Coils
+The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch (PSI). Based on a review of the dataframes Lot 3 exceeds 100 PSI, therefore does not meet the design specification.  The reason for this are numerous outliers (refer to plot below).
+
+image
+
+## Deliverable 3: T-Tests on Suspension Coils 
+
+The true mean of the sample is 1498.78.  With a p-Value of 0.06028, which is higher than the common significance level of 0.05, there isn’t enough evidence to support rejecting the null hypothesis. The mean of all three of these manufacturing lots is statistically similar to the presumed population mean of 1500.
+
+Lot 1 image
+
+Lot 1 has a true sample mean of 1500 and a p-Value of 1.  We can’t reject the null hypothesis that there is no statistical difference between the observed sample mean and the presumed population mean of 1500.
+
+
+Lot 2 image
+
+Lot 2 has a true sample mean of 1500.02 and a p-Value of 0.6072.  Again we can’t reject the null hypothesis.
+
+
+Lot 3 image 
+
+Lot 3 has a true sample mean of 1496.14and a p-Value of 0.04168.  The p-Value is lower than the common significance level of 0.05, therefore we should reject the null hypothesis that this sample mean and the presumed population mean are not statistically different.
+.
+Some appears to have happened in the production cycle of Lot 3. The lot needs to be inspected to identify the issue. 
+
+## Deliverable 4: Design a Study Comparing the MechaCar to the Competition
+
+I would perform a study of the MechaCar up against competitors for the following:
+- Fuel Economy 
+- Emissions
+
+The null hypothesis would be the MechaCar fuel economy and emissions are statistically similar to it’s competitors. The alternative hypothesis MechaCar fuel economy and emissions are not statistically similar to it’s competitors.
+
+##Statistical Tests
+A multiple linear regression analysis should be used to determine the factors that have the highest correlation/predictability with the 
+![image](https://user-images.githubusercontent.com/89749126/171547825-1443b487-4890-4705-b421-32231caa2f02.png)
+
 
